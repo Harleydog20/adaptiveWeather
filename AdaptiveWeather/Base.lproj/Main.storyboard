@@ -21,21 +21,29 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UsI-Ou-W3i" userLabel="textContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPj-xj-hWQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cupertino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EPj-xj-hWQ">
                                         <rect key="frame" x="-20" y="10" width="640" height="180"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="28C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lwi-TF-xXa">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="28C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Lwi-TF-xXa">
                                         <rect key="frame" x="69" y="56" width="463" height="299"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.21568627450980393" green="0.50196078431372548" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Lwi-TF-xXa" firstAttribute="width" secondItem="UsI-Ou-W3i" secondAttribute="width" id="3d1-zC-dQI"/>
+                                    <constraint firstItem="EPj-xj-hWQ" firstAttribute="width" secondItem="UsI-Ou-W3i" secondAttribute="width" id="5ZA-Pw-MUk"/>
                                     <constraint firstItem="Lwi-TF-xXa" firstAttribute="centerX" secondItem="UsI-Ou-W3i" secondAttribute="centerX" id="M9k-YL-MDc"/>
                                     <constraint firstAttribute="bottom" secondItem="Lwi-TF-xXa" secondAttribute="bottom" constant="10" id="Rcc-Kg-9oS"/>
                                     <constraint firstItem="EPj-xj-hWQ" firstAttribute="top" secondItem="UsI-Ou-W3i" secondAttribute="top" constant="10" id="ZOe-Oa-OTR"/>
